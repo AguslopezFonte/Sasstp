@@ -1,0 +1,25 @@
+.presentacion {
+  display: flex;
+  &_texto {
+    background-color: $background-principal;
+  }
+  &_imagen {
+    width: 50vh;
+    @media screen and (max-width: 768px) {
+      width: 100vw;
+    }
+    &--picture {
+      border-radius: 200px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      &:hover {
+        transform: scale(110%);
+        transition: 1s;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}

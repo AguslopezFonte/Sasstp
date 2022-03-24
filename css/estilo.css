@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu {
+  background-color: blanchedalmond;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarPropio {
+  background-color: blueviolet;
+}
+
+.menu {
+  background-color: blanchedalmond;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarPropio {
+  background-color: blueviolet;
+}
+
+.presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentacion_imagen {
+  width: 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  .presentacion_imagen {
+    width: 100%;
+  }
+}
+
+.presentacion_imagen--picture {
+  border-radius: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .presentacion_imagen--picture {
+    width: 100%;
+  }
+}
+
+.presentacion_imagen--picture:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .presentacion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
